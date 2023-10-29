@@ -46,6 +46,10 @@ header {
     padding: 12px 24px;
 }
 
+.burger {
+    display: none;
+}
+
 
 
 
@@ -156,4 +160,48 @@ header {
     letter-spacing: 0.1px;
     margin-top: 16px;
     width: 503.5px;
+}
+
+
+
+
+.section_3 {
+    display: flex;
+    justify-content: space-between;
+    column-gap: calc(30 / 1440 * 100%);
+    padding: 64px calc(130 / 1440 * 100%);
+}
+
+article {}
+
+.title_and_logo {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    margin-bottom: 16px;
+}
+
+.article_logo {
+    font-size: 40px;
+}
+
+.article_title {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.article_p {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.1px;
 }
