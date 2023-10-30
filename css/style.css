@@ -1,19 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+
+/* container  */
+
 .container {
     max-width: 1440px;
     width: 100%;
     margin: auto;
 }
 
-
-
-
-
-
-
-
-
+/* header  */
 
 header {
     display: flex;
@@ -21,6 +17,8 @@ header {
     align-items: center;
     padding: 24px calc(32 / 1440 * 100%);
 }
+
+/* header navigation */
 
 .header_ul {
     display: flex;
@@ -36,6 +34,8 @@ header {
     letter-spacing: 0.1px
 }
 
+/* header button  */
+
 .header_button {
     color: var(--Anti-Flash-White, #F3F3F3);
     font-weight: 700;
@@ -46,17 +46,13 @@ header {
     padding: 12px 24px;
 }
 
+/* header burger  */
+
 .burger {
     display: none;
 }
 
-
-
-
-
-
-
-
+/* section 1 */
 
 .section_1 {
     display: flex;
@@ -66,6 +62,7 @@ header {
     column-gap: calc(130 / 1440 * 100%);
 }
 
+/* section 1 title frame  */
 
 .section_1_title {
     color: #000;
@@ -74,7 +71,6 @@ header {
     font-style: normal;
     font-weight: 900;
     line-height: 60px;
-    /* 107.143% */
     letter-spacing: -1px;
     width: 490px;
 }
@@ -86,10 +82,11 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
-    /* 155.556% */
     margin-top: 24px;
     width: 490px;
 }
+
+/* section 1 button  */
 
 .section_1_button {
     color: var(--Anti-Flash-White, #F3F3F3);
@@ -102,6 +99,8 @@ header {
     margin-top: 52px;
 }
 
+/* section 1 image  */
+
 .section_1_img {
     height: 400px;
     width: 490px;
@@ -113,9 +112,7 @@ header {
     background-position: 50% 50%;
 }
 
-
-
-
+/* section 2  */
 
 .section_2 {
     display: flex;
@@ -125,6 +122,8 @@ header {
     column-gap: calc(133 / 1440 * 100%);
     background-color: black;
 }
+
+/* section 2 image  */
 
 .section_2_img {
     height: 400px;
@@ -137,6 +136,8 @@ header {
     background-position: 50% 50%;
 }
 
+/* section 2 title frame  */
+
 .section_2_title {
     color: #FFF;
     font-family: 'Inter', sans-serif;
@@ -144,7 +145,6 @@ header {
     font-style: normal;
     font-weight: 900;
     line-height: 32px;
-    /* 133.333% */
     letter-spacing: -0.1px;
     width: 503.5px;
 }
@@ -152,18 +152,15 @@ header {
 .section_2_p {
     color: #FFF;
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    /* 150% */
     letter-spacing: 0.1px;
     margin-top: 16px;
     width: 503.5px;
 }
 
-
-
+/* section 3  */
 
 .section_3 {
     display: flex;
@@ -172,7 +169,7 @@ header {
     padding: 64px calc(130 / 1440 * 100%);
 }
 
-article {}
+/* section 3 title frame  */
 
 .title_and_logo {
     display: flex;
@@ -192,19 +189,18 @@ article {}
     font-style: normal;
     font-weight: 700;
     line-height: 28px;
-    /* 155.556% */
 }
 
 .article_p {
     color: #000;
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    /* 150% */
     letter-spacing: 0.1px;
 }
+
+/* footer  */
 
 footer {
     display: flex;
@@ -213,6 +209,8 @@ footer {
     background-color: black;
 }
 
+/* footer logo  */
+
 .footer_logo {
     color: #FFF;
     font-family: 'Inter', sans-serif;
@@ -220,27 +218,24 @@ footer {
     font-style: normal;
     font-weight: 900;
     line-height: 26.414px;
-    /* 107.143% */
     letter-spacing: -0.44px;
     text-transform: uppercase;
 }
+
+/* footer navigation */
 
 .footer_nav {
     display: flex;
     column-gap: 80px;
 }
 
-.footer_column {}
-
 .footer_nav_title {
     margin-bottom: 16px;
     color: #FFF;
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 24px;
-    /* 150% */
     letter-spacing: 0.1px;
 }
 
@@ -255,19 +250,16 @@ footer {
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
-    /* 142.857% */
 }
 
-.subscribe {}
+/* subscribe  */
 
 .subscribe_title {
     color: #FFF;
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 24px;
-    /* 150% */
     letter-spacing: 0.1px;
 }
 
@@ -279,7 +271,6 @@ footer {
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
-    /* 142.857% */
     opacity: 0.4;
     margin-top: 24px;
 }

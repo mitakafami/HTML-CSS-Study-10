@@ -1,9 +1,25 @@
-@media (max-width: 744px) {
+@media (max-width: 745px) {
+
+/* section 1  */
+
+    .section_1_img {
+        margin-top: 24px;
+        height: 320px;
+    }
+
+/* section 2  */
+
+    .section_2_img {
+        height: 320px;
+        margin-bottom: 29px;
+    }
     .section_2_title_frame {
         flex-direction: column;
         text-align: center;
         row-gap: 29px;
     }
+
+/* section 3  */
 
     .section_3 {
         flex-direction: column;

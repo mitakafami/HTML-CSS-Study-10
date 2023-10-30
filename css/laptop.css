@@ -1,4 +1,7 @@
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
+
+/* section 1  */
+
     .section_1 {
         flex-direction: column;
         padding: 32px calc(32 / 1440 * 100%);
@@ -31,9 +34,7 @@
         height: 480px;
     }
 
-
-
-
+/* section 2 */
 
     .section_2 {
         flex-direction: column;
@@ -63,6 +64,8 @@
         width: 100%
     }
 
+/* footer  */
+
     footer {
         flex-direction: column;
         padding: 45px calc(32 / 1440 * 100%);
@@ -70,7 +73,6 @@
 
     .footer_nav {
         margin-top: 32px;
-
     }
 
     .subscribe {
