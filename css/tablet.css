@@ -1,1 +1,22 @@
-@media (max-width: 834px) {}
+@media (max-width: 744px) {
+    .section_2_title_frame {
+        flex-direction: column;
+        text-align: center;
+        row-gap: 29px;
+    }
+
+    .section_3 {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px calc(130 / 1440 * 100%);
+        row-gap: 40px;
+    }
+    .title_and_logo {
+        justify-content: center;
+    }
+
+
+
+
+
+}
