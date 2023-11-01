@@ -41,6 +41,7 @@
     }
 
     .footer_nav {
-        justify-content: center;
+        justify-content: space-between;
+        gap: 0;
     }
 }

@@ -15,7 +15,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px calc(32 / 1440 * 100%);
+    padding: 24px 32px;
 }
 
 /* header navigation */
@@ -56,9 +56,9 @@ header {
 
 .section_1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 64px calc(165 / 1440 * 100%);
+    padding: 64px 0;
     column-gap: calc(130 / 1440 * 100%);
 }
 
@@ -116,9 +116,9 @@ header {
 
 .section_2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 64px calc(150 / 1440 * 100%);
+    padding: 64px 0;
     column-gap: calc(133 / 1440 * 100%);
     background-color: black;
 }
@@ -165,7 +165,7 @@ header {
 .section_3 {
     display: flex;
     justify-content: space-between;
-    column-gap: calc(30 / 1440 * 100%);
+    column-gap: 30px;
     padding: 64px calc(130 / 1440 * 100%);
 }
 
